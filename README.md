@@ -48,7 +48,7 @@ To use this website, simply type in the name of the city you would like to searc
 <https://github.com/precisecoding/Weather-Dashboard.git>
 
 #### Deployed link: 
-<>
+<https://precisecoding.github.io/Weather-Dashboard/>
 
 #### This site was built using github pages.
 <https://pages.github.com/>
