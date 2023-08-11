@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assets\style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <div class="container-wrapper">
+        <div class="left-side">
+            <h2> Search For a City</h2>
+            <form id="search-form">
+                <input type="text" id="search-input">
+                <button type="submit" id="search-btn">
+                    Search
+                </button>
+            </form>
+            <div id="searched-cities"> 
+            </div>
+        </div>
+        <div class="right-side">
+            <div id="current-search">
+                <h3> <span id="current-city">  </span><span id="current-date">  </span> <img
+                        id="current-icon" src="" alt="icon"></h3>
+                <p>Temp: <span id="current-temp"></span> F </p>
+                <p>Wind: <span id="current-wind"></span> MPH </p>
+                <p>Humidity: <span id="current-humidity"></span> % </p>
+            </div>
+            <div id="fiveday-forcast">
+                <h3> 5 Day Forcast </h3>
+                <div class="card-wrapper" id="card-wrapper">
+                    <!-- <div class="card">
+                        <h3> <span>  </span> </h3>
+                        <img src="" alt="icon">
+                        <p> Temp <span></span> F </p>
+                        <p>Wind: <span></span> MPH </p>
+                        <p>Humidity: <span></span> % </p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./Assets/script.js"> </script>
+</body>
+
+</html>

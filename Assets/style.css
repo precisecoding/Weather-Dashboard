@@ -1,0 +1,93 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+header {
+background: blue;
+color: white;
+text-align: center;
+
+}
+
+form {
+
+}
+
+
+form input {
+display: block;
+width: 100%;
+margin-bottom: 10px;
+border: 1px solid black;
+}
+
+
+form button {
+display: block;
+background: rgb(65, 200, 241);
+color: white;
+text-align: center;
+width: 100%;
+padding: 5px 0;
+margin-bottom: 20px;
+border: 1px solid black;
+cursor: pointer;
+}
+
+.container-wrapper {
+display: flex;
+
+}
+
+.left-side {
+width: 30%;
+
+}
+
+#searched-cities button {
+display: block;
+width: 100%;
+padding: 5px 0;
+text-transform: capitalize;
+margin-bottom: 10px;
+background: skyblue;
+border: 1px solid black;
+color: white;
+cursor: pointer;
+}
+
+#current-search {
+border: 1px black solid;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+#current-search img {
+width: 20px;    
+}
+
+.right-side {
+margin-left: 20px;
+width: 80%;
+}
+
+#fiveday-forcast {    
+
+}
+
+.card-wrapper {
+display: flex;
+justify-content: space-between; 
+}
+
+.card {
+background: darkblue;
+color: white;
+padding: 5px;
+}
+
+.card h3, .card img, .card p {
+margin-bottom: 10px;
+}
