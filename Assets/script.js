@@ -52,7 +52,7 @@ function getCurrentWeatherData(lat, lon) {
         })
         .then((data) => {
             currentDate.textContent = '(' + formatDate(data.dt * 1000) + ')';
-            currentIcon.src = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
+            currentIcon.src = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
             currentCity.textContent = data.name;
             currentTemp.textContent = (1.8 * (data.main.temp - 273) + 32).toFixed(2);
             currentWind.textContent = data.wind.speed;
