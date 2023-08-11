@@ -1,7 +1,7 @@
 
 
 let apiKey = '413127a280f9203a6c945a3bdbde0802';
-let baseUrl = `http://api.openweathermap.org/geo/1.0/direct?q=`;
+let baseUrl = `https://api.openweathermap.org/geo/1.0/direct?q=`;
 let currentCity = document.getElementById("current-city");
 let currentDate = document.getElementById("current-date");
 let currentTemp = document.getElementById("current-temp");
@@ -76,7 +76,7 @@ function getFiveDayForcast(lat, lon) {
                 h3.textContent = formatDate(data.list[i].dt * 1000);
                 const img = document.createElement("img");
                 card.appendChild(img);
-                img.src = "http://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png";
+                img.src = "https://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png";
                 const p1 = document.createElement("p");
                 card.appendChild(p1);
                 p1.innerHTML = `Temp: <span>${(1.8 * (data.list[i].main.temp - 273) + 32).toFixed(2)}</span> F`;
